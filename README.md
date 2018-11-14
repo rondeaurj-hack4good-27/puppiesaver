@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The intent of this project is to more easily enable development.  This project comes ready to run with:
+
+1. React
+2. Redux
+3. React Router
+4. Sample API calls
+
+These 3 items give you as a developer a framework that enables single page application, state management, API calling, 
+and a UI layer without having to figure out how to layer your code. 
+
+## Dependencies
+
+Please download and install Nodejs.  Open [https://nodejs.org/en/](https://nodejs.org/en/) and download latest LTS.  
 
 ## Available Scripts
 
