@@ -8,7 +8,7 @@ The intent of this project is to more easily enable development.  This project c
 4. Sample API calls [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 5. Material UI [https://www.npmjs.com/package/@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
 
-These 3 items give you as a developer a framework that enables single page application, state management, API calling, 
+These items give you as a developer a framework that enables single page application, state management, API calling, 
 and a UI layer without having to figure out how to layer your code. 
 
 ## How to run the code
