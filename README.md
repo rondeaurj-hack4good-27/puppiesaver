@@ -1,16 +1,27 @@
+## Introduction
+
 The intent of this project is to more easily enable development.  This project comes ready to run with:
 
-1. React
-2. Redux
-3. React Router
-4. Sample API calls
+1. React [https://www.npmjs.com/package/react](https://www.npmjs.com/package/react)
+2. Redux [https://www.npmjs.com/package/redux](https://www.npmjs.com/package/redux)
+3. React Router [https://www.npmjs.com/package/react-router](https://www.npmjs.com/package/react-router)
+4. Sample API calls [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+5. Material UI [https://www.npmjs.com/package/@material-ui/core](https://www.npmjs.com/package/@material-ui/core)
 
 These 3 items give you as a developer a framework that enables single page application, state management, API calling, 
 and a UI layer without having to figure out how to layer your code. 
 
-## Dependencies
+## How to run the code
 
-Please download and install Nodejs.  Open [https://nodejs.org/en/](https://nodejs.org/en/) and download latest LTS.  
+1. `git clone git@git.jmfamily.com:jmfxtux/react-redux-spa-hello-world.git` 
+2. `npm install`
+3. `npm start`
+
+
+## Prerequisites
+
+1. Download and install Nodejs.  Open [https://nodejs.org/en/](https://nodejs.org/en/) and download latest LTS.
+2. Review [https://jmfamily.atlassian.net/wiki/spaces/AS/pages/581763117/React+Redux+SPA+User+Guide](https://jmfamily.atlassian.net/wiki/spaces/AS/pages/581763117/React+Redux+SPA+User+Guide) for information on how the code is layed out.  
 
 ## Available Scripts
 
