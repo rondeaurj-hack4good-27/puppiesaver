@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <div style={{height: 200}}>
         <header>
-          Header
+          <img style={{padding: 25}} src="https://s3fs.bestfriends.org/s3fs-public/bfas.png"></img>
         </header>  
       </div>
     )

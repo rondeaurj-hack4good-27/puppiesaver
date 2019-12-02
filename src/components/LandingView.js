@@ -7,8 +7,8 @@ export default class LandingView extends Component {
   render() {
     return (
       <div>
-        <Nav />
-        LandingView
+        <Nav /> 
+         LandingView - Test
         <br></br>
         <Link to="/posts">
             Posts
