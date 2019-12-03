@@ -20,31 +20,48 @@ class PostForm extends Component {
       telephone:'',
       email:'',
       uploading: false,
-      images: []
+      file: '',
     };
  
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
   }
  
+
+
   onChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
+    console.log(e.target.name);
+
+    if(e.target.name !== 'file'){
+      this.setState({ [e.target.name]: e.target.value });
+    }
+    else{
+
+      this.setState({
+        file: e.target.files[0]
+      })
+    }
   }
  
   onSubmit(e) {
     e.preventDefault();
  
     const post = {
-      name: this.state.name,
-      petName: this.state.petName,
-      dateLost: this.state.dateLost,
-      address: this.state.address,
-      zip: this.state.zip,
-      state: this.state.state,
-      telephone: this.state.telephone,
-      email: this.state.email,
+      tagging:{
+        name: this.state.name,
+        petName: this.state.petName,
+        dateLost: this.state.dateLost,
+        address: this.state.address,
+        zip: this.state.zip,
+        state: this.state.state,
+        telephone: this.state.telephone,
+        email: this.state.email
+      },
+      file: this.state.file
     };
  
+    console.log('state', this.state.file);
+
     this.props.createPost(post);
   }
  
@@ -183,10 +200,10 @@ class PostForm extends Component {
 
           <div className="row">
             <div className="column left">
-            <label htmlFor='multi'>Photos: </label>
+            <label>Photos: </label>
             </div>
             <div className="column right">
-              <input type='file' id='multi' onChange={this.onChange} multiple />
+              <input type='file' name='file' onChange={this.onChange} />
             </div>
           </div>
 
